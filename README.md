@@ -1,16 +1,7 @@
 # fluttermonarchlayout
 
-A new Flutter project.
+I have encountered a puzzling layout inconsistency and I am hoping that the Flutter community can help me resolve it.
 
-## Getting Started
+The problem appears to result from an interaction between some/all of the following Flutter widgets: Wrap, Stack, Chip, and Positioned. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To start, here are two images that show the intended layout:
