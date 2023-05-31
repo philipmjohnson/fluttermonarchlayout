@@ -8,8 +8,8 @@ class BadgeIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color selectedColor = Colors.black;
-    BadgeDot dot = BadgeDot(color: selectedColor);
+    const Color selectedColor = Colors.black;
+    BadgeDot dot = const BadgeDot(color: selectedColor);
 
     List<Widget> dots = [];
     if (level == 1) {
@@ -41,8 +41,8 @@ class BadgeIcon extends StatelessWidget {
 
 /// Return a dot as the Level indicator.
 class BadgeDot extends StatelessWidget {
-  BadgeDot({Key? key, required this.color}) : super(key: key);
-  Color color;
+  const BadgeDot({Key? key, required this.color}) : super(key: key);
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
