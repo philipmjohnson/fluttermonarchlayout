@@ -8,13 +8,13 @@ To start, here are two images that show the desired layout:
 
 ### Chrome
 
-<img src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/chrome.png">
+<img width="600px"  src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/chrome.png">
 
 ### Monarch (iPhone 13 Pro)
 
 This image is a screenshot from the [Monarch](https://monarchapp.io/) UI development environment:
 
-<img src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/monarch-iPhone13Pro.png">
+<img width="600px"  src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/monarch-iPhone13Pro.png">
 
 ## Unexpected behavior
 
@@ -24,8 +24,8 @@ Now, here are two images that show two layout problems from the same codebase:
 
 ### iOS Simulator (iPhone13Pro)
 
-<img src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/simulator-iPhone13Pro.png">
+<img width="600px"  src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/simulator-iPhone13Pro.png">
 
 ### Android simulator (Pixel 6 Pro)
 
-<img src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/simulator-Pixel6Pro.png">
+<img width="600px"  src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/simulator-Pixel6Pro.png">
