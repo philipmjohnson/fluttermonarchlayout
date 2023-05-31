@@ -14,7 +14,7 @@ To start, here are two images from two platforms that show the desired layout:
 
 ### Monarch (iPhone 13 Pro)
 
-This image is a screenshot from the [Monarch](https://monarchapp.io/) UI development environment:
+This image is a screenshot from the [Monarch](https://monarchapp.io/) UI development environment, which is set to emulate the iPhone 13 Pro platform:
 
 <img width="600px"  src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/monarch-iPhone13Pro.png">
 
@@ -25,6 +25,8 @@ Now, here are two images that illustrate two layout problems from the same codeb
 2. There is additional padding between the two "rows" of the Wrapped widgets.
 
 ### iOS Simulator (iPhone13Pro)
+
+The iOS Simulator does not display the same layout as Monarch, even though both are set to emulate the iPhone 13 Pro platform:
 
 <img width="600px"  src="https://raw.githubusercontent.com/philipmjohnson/fluttermonarchlayout/main/images/simulator-iPhone13Pro.png">
 
