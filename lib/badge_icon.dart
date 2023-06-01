@@ -10,10 +10,12 @@ class BadgeIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
         padding: const EdgeInsets.all(3.0),
-        child: Chip(
-            visualDensity: const VisualDensity(vertical: -3.0),
-            padding: const EdgeInsets.all(0.1),
-            label: BadgeLabel(text: name, level: level)));
+        child: SizedBox(
+          height: 32,
+          child: Chip(
+              padding: const EdgeInsets.all(0.1),
+              label: BadgeLabel(text: name, level: level)),
+        ));
   }
 }
 
