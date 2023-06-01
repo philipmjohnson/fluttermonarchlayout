@@ -11,6 +11,7 @@ class BadgeIcon extends StatelessWidget {
     return Padding(
         padding: const EdgeInsets.all(3.0),
         child: Chip(
+            visualDensity: const VisualDensity(vertical: -3.0),
             padding: const EdgeInsets.all(0.1),
             label: BadgeLabel(text: name, level: level)));
   }
