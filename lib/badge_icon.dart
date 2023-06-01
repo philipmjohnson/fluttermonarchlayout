@@ -31,7 +31,7 @@ class BadgeIcon extends StatelessWidget {
       padding: const EdgeInsets.all(3.0),
       child: Stack(
         children: [
-          Chip(label: Text('   $name')),
+          SizedBox(height: 33, child: Chip(label: Text('   $name'))),
           ...dots,
         ],
       ),
