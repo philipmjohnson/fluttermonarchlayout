@@ -95,3 +95,15 @@ The code to create the wrapped list of Badges is in [wrapped_badges.dart](https:
 
 • No issues found!
 ```
+
+## Solutions
+
+After posting a query to [Reddit](https://www.reddit.com/r/flutterhelp/comments/13wydta/layout_inconsistencies_with_wrap_positioned_chip/), [StackOverflow](https://stackoverflow.com/questions/76377395/layout-inconsistencies-between-platforms-when-using-wrap-positioned-chip), [Monarch Issues](https://github.com/Dropsource/monarch/issues/105), and a private Slack group, I received several useful suggestions. 
+
+The first was to adjust the VisualDensity property because the web and mobile have differing degrees of "looseness" around layout.  You can see the code for this idea in the [visual-density](https://github.com/philipmjohnson/fluttermonarchlayout/tree/visual-density) branch of this repository.
+
+The second idea was to wrap the Chip in a SizedBox with a fixed height in order to address the "looseness".  You can see the code for this idea in the [sized-box](https://github.com/philipmjohnson/fluttermonarchlayout/tree/sized-box) branch of this repository.
+
+While these ideas addressed certain aspects of the layout inconsistency, I noticed that when I adjusted the "Text Scale Factor" in Monarch, the location of the stars in the badge would no longer be vertically centered. That led me to the realization that another problem with my code was the use of the Positioned widget with constant offsets.  So, I replaced the "label" for the Chip with a widget that contained a Row with two elements: a Column containing centered vertical stars, and a Text label. While this required a bit more code, the resulting Chip label now renders appropriately at various Text Scale Factors. You can see the code for this idea in the [column](https://github.com/philipmjohnson/fluttermonarchlayout/tree/column) branch of this repository. 
+
+Thanks to all who provided such useful suggestions!
