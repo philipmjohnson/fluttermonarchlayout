@@ -11,7 +11,7 @@ class BadgeIcon extends StatelessWidget {
     return Padding(
         padding: const EdgeInsets.all(3.0),
         child: SizedBox(
-          height: 32,
+          height: 33,
           child: Chip(
               padding: const EdgeInsets.all(0.1),
               label: BadgeLabel(text: name, level: level)),
@@ -54,7 +54,8 @@ class BadgeLabel extends StatelessWidget {
     final dotColumn = DotColumn(level: level);
     return Row(mainAxisSize: MainAxisSize.min, children: [
       dotColumn,
-      Text(' $text'),
+      const SizedBox(width: 2),
+      Text(text),
     ]);
   }
 }
