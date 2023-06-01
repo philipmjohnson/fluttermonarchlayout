@@ -31,7 +31,9 @@ class BadgeIcon extends StatelessWidget {
       padding: const EdgeInsets.all(3.0),
       child: Stack(
         children: [
-          Chip(label: Text('   $name')),
+          Chip(
+              visualDensity: const VisualDensity(vertical: -3.2),
+              label: Text('   $name')),
           ...dots,
         ],
       ),
