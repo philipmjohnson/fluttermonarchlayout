@@ -1,5 +1,8 @@
 # Flutter layout problem
 
+> **Note**
+> See the last section of this page for various solutions to this problem.
+
 I have encountered a puzzling layout inconsistency involving the Wrap, Stack, Chip, and Positioned widgets and I am hoping that the Flutter community can help me resolve it. I have a created a simple Flutter app at <https://github.com/philipmjohnson/fluttermonarchlayout> (based on the default Counter app) that illustrates the problem.
 
 My question: How can I get my "Badges" to lay out consistently across all platforms? 
